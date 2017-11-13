@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="classic_certificate_report">
+            <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.internal_layout">
+
+     <div class="page" t-attf-style="background-image:url('/hr_employee_certificates/static/src/img/month.jpg'); background-size:297mm 201mm; width:297mm; height:201mm;">                   
+<div class="oe_structure"/>
+
+
+
+                               <style>
+							
+				   
+													   
+													   
+                              .main-data {
+                                    width: 100%;
+                                   
+                                }
+                                .body {
+                                    
+                                    margin: 40px 0px 10px 0px;
+                                }
+                                .center-data {
+                                    width: 1000px;
+                                    margin: 0px auto;
+                                
+                                }
+                                .gm  {
+                                    padding:0px 80px;
+                                    margin-left: 278px;
+									margin-top: 125px;
+                                }
+								
+								.head2 {
+                                    padding:0px 0px;
+									font-weight: bold;
+                                    margin-left: 390px;
+									margin-top: -10px;
+                                    font-size: 30px;
+									
+                                }
+								
+								.head3 {
+                                    padding:0px 0px;
+									font-weight: bold;
+                                    margin-left: 340px;
+									margin-top: -10px;
+                                    font-size: 30px;
+									
+                                }
+                                .no-margin {
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+                                .mb0 {
+                                    margin-bottom: 0px;
+                                    font-size: 25px;
+                                } 
+								
+							
+								
+                            </style>
+
+                            <div class="main-data">
+                                <div class="center-data">
+                                    <div class="heading">
+                                      <br><br><br><br></br></br></br></br><br><br><br></br></br></br>
+
+									 
+									 
+										<p class="gm"><span t-field="o.image" t-field-options='{"widget": "image" }'/></p>
+										<p class="head3"><t t-esc="o.name"/></p>
+										<p class="head2"><span t-esc="time.strftime('%b/%Y')"/></p>
+
+									   
+									   
+                                      </div>
+                                </div>                  
+                            </div>
+
+                        </div>
+                    </t>
+                </t>
+           
+          </t>
+        </template>
+
+
+
+</odoo>

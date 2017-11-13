@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="paperformat_euro_landscape" 
+        model="report.paperformat"> 
+  <field name="name">European A4 Landscape</field> 
+  <field name="default" eval="True" /> 
+  <field name="format">A4</field> 
+  <field name="page_height">0</field> 
+  <field name="page_width">0</field> 
+  <field name="orientation">Landscape</field> 
+  <field name="margin_top">25</field> 
+  <field name="margin_bottom">23</field> 
+  <field name="margin_left">20</field> 
+  <field name="margin_right">5</field> 
+  <field name="header_line" eval="False" /> 
+  <field name="header_spacing">35</field> 
+  <field name="dpi">90</field>  
+</record> 
+
+
+
+
+
+
+        <report
+            id="classic_empmonth_report" 
+            model="hr.employee"
+            name="employee_of_the_month_classic.classic_certificate_report"
+            file="employee_of_the_month_classic.classic_certificate_report"			
+            report_type="qweb-html"
+			paperformat="paperformat_euro_landscape"
+            string="Print Employee of the Month certf."/> 
+   
+</odoo>

@@ -4,7 +4,7 @@
     'name': 'Classic Employee of the Month certificate',
     'summary': 'Print from odoo your employee of the month certificate',
     'category': 'Reporting',
-    'author': 'Said Hijaoui(rhfree.com)',
+    'author': 'rhfree.com',
     'website': "http://rhfree.com",
     'price': 40,
     'currency': 'EUR',

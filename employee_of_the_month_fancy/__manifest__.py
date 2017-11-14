@@ -3,7 +3,7 @@
 {
     'name': 'Fancy Employee of the Month certificate',
     'summary': 'Print from odoo your employee of the month certificate',
-    'category': 'Reporting',
+    'category': 'Human Resources',
     'author': 'rhfree.com',
     'website': "http://rhfree.com",
     'price': 50,
@@ -26,5 +26,5 @@
 	
     "installable": True,
     # "auto_install": False
-    "images":['static/description/Banner.png'],	
+	
 }

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="certificate_report">
+            <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+
+     <div class="page" t-attf-style="background-image:url('/hr_employee_certificates/static/src/img/bg_background_template.jpg'); background-size:297mm 201mm; width:297mm; height:201mm;">                   
+
+
+
+                                                       <style>
+                                .main-data {
+                                    width: 100%;
+                                   
+                                }
+                                .body {
+                                    
+                                    margin: 30px 0px 10px 0px;
+                                }
+                                .center-data {
+                                    width: 1000px;
+                                    margin: 0px auto;
+                                }
+                                .heading {
+                                    text-align: center;
+                                    margin: 10px 0px 10px 0px;
+                                   ;
+                                }
+                                .job-name {
+                                    width: 100%;
+
+                                }
+                                .employee {
+                                    width: 100%;
+                                    float: left;
+                                }
+                                .solid {
+                                    font-weight: bold;
+                                }
+                                .employee p .liquid {
+                                    margin-left: 10px;
+                                }
+                                .employee p {
+                                    width: 50%;
+                                    float: left;
+                                }
+                                .employee p:nth-child(2) {
+                                    text-align: right;
+                                }
+                                .clearfloat {
+                                    clear: both;
+                                    float: none;
+                                }
+                                ol li {
+                                    margin: 15px 0px;
+                                    line-height: 1.6;
+                                }
+                                ol li,
+                                p {
+                                    text-align: justify;
+                                }
+                                ol li span.line {
+                                    display: block;
+                                }
+                                .center {
+                                    text-align: center;
+                                }
+                                ol li span.center span {
+                                    display: inline-block;
+                                    padding: 0px 20px;
+                                    font-weight: bold;
+                                }
+                                .margin {
+                                    padding:0px 40px;
+                                    margin-left: 50px;
+                                }
+                                .margin2 {
+                                    padding:0px 20px;
+                                    margin-left: 20px;
+									font-size: 20px;
+									
+    font-family: Roboto;
+    src: url(/hr_employee_certificates/static/src/font/Roboto-Regular.ttf)
+}
+                                }
+                                .sign p {
+                                    
+                                    border-top: 1px solid;
+                                    margin-top: 50px;
+                                    display: inline-block;
+                                    font-size: 15px;
+                                }
+                                .gm  {
+                                    margin-top: 80px;
+                                }
+                                .no-margin {
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+                                .mb0 {
+                                    margin-bottom: 0px;
+                                    font-size: 20px;
+                                }
+                            </style>
+
+                            <div class="main-data">
+                                <div class="center-data">
+                                    <div class="heading">
+                                      <br><br><br><br></br></br></br></br>
+                                        <h2>CERTIFICATE OF EMPLOYMENT</h2>
+                                    </div><br><br><br><br></br></br></br></br>
+     
+                                        <div class="body">
+                                            <p class="margin2"> This is to certify that  <span class="solid"> <t t-esc="o.name"/></span> has been employed in <span class="solid"><span t-field="o.company_id.name"/>,</span> 
+                                            
+                                            
+												from <span class="solid"><t t-esc="o.contract_id.date_start"/>  up to the present </span> as <span class="solid"><span t-field="o.contract_id.job_id"/></span></p>
+
+<br></br>
+												<p class="margin2">This certification is being issued upon the request of therfore mentioned name for whatever lawful purpose it may serve him best.</p>
+
+												<br><br><br></br></br></br>
+												<p class="margin2">Issued on <span t-esc="time.strftime('%m/%d/%Y')"/>, city of  <span t-field="o.company_id.city"/>.</p>
+
+												<br><br><br></br></br></br>
+												<p class="margin2">Human Resouces Manager</p>
+												
+												
+												
+												
+
+												
+												<br><br><br><br></br></br></br></br>
+												
+                           <br><br><br><br></br></br></br></br>                     
+                                           
+<br><br><br><br></br></br></br></br>
+                                            
+                                       
+                                      </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </t>
+                </t>
+            </t>
+          
+        </template>
+
+
+
+</odoo>

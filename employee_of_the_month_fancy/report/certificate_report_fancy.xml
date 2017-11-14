@@ -27,14 +27,14 @@
                                 .gm  {
                                     padding:0px 80px;
                                     margin-left: 320px;
-									margin-top: 110px;
+									margin-top: 80px;
                                 }
 								
 								.head2 {
                                     padding:0px 0px;
 									font-weight: bold;
-                                    margin-left: 750px;
-									margin-top: 10px;
+                                    margin-left: 702px;
+									margin-top: -150px;
                                     font-size: 25px;
 									
                                 }
@@ -43,7 +43,7 @@
                                     padding:0px 80px;
 									font-weight: bold;
                                     margin-left: 650px;
-									margin-top: -110px;
+									margin-top: -160px;
                                     font-size: 30px;
 									
                                 }
@@ -55,7 +55,7 @@
                                     <div class="heading">
                                       <br><br><br><br></br></br></br></br><br><br><br></br></br></br>
                                      
-										<p class="gm"><span t-field="o.image_medium" t-field-options='{"widget": "image"}'/></p>
+										<p class="gm"><span t-field="o.image" t-field-options='{"widget": "image"}'/></p>
 										<p class="head3"><t t-esc="o.name"/></p><br></br>
 										<p class="head2"><span t-esc="time.strftime('%m/%Y')"/></p><br></br>
 

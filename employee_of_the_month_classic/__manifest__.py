@@ -4,9 +4,9 @@
     'name': 'Classic Employee of the Month certificate',
     'summary': 'Print from odoo your employee of the month certificate',
     'category': 'Reporting',
-    'author': 'Said Hijaoui(rhfree.com)',
+    'author': 'rhfree.com',
     'website': "http://rhfree.com",
-    'price': 99,
+    'price': 40,
     'currency': 'EUR',
     'depends': ['base'],
     'version': 'Classic1.0',	
@@ -26,5 +26,5 @@
 	
     "installable": True,
     # "auto_install": False
-	
+    "images":['static/description/Banner.png'],
 }

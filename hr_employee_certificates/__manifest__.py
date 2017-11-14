@@ -6,8 +6,8 @@
     'category': 'Reporting',
     'author': 'sitepasmal.com',
     'website': "http://sitepasmal.com",
-    # 'price': 40,
-    # 'currency': 'EUR',
+    'price': 40,
+    'currency': 'EUR',
     'depends': ['base'],
     'version': '1.0',	
 

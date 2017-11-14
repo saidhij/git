@@ -30,6 +30,6 @@
             file="employee_of_the_month_classic.classic_certificate_report"			
             report_type="qweb-html"
 			paperformat="paperformat_euro_landscape"
-            string="Print Employee of the Month certf."/> 
+            string="Print Classic Employee of the Month certf."/> 
    
 </odoo>

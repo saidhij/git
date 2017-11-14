@@ -81,7 +81,7 @@
 									font-size: 20px;
 									
     font-family: Roboto;
-    src: url(/hr_employee_certificates/static/src/font/Roboto-Regular.ttf)
+    src: url(/'hr_employee_certificates/static/src/font/Roboto-Regular.ttf')
 }
                                 }
                                 .sign p {

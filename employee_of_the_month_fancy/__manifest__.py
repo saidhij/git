@@ -3,8 +3,8 @@
 {
     'name': 'Fancy Employee of the Month certificate',
     'summary': 'Print from odoo your employee of the month certificate',
-    'category': 'Human Resources',
-    'author': 'rhfree.com',
+    'category': 'Reporting',
+    'author': 'Said Hijaoui(rhfree.com)',
     'website': "http://rhfree.com",
     'price': 50,
     'currency': 'EUR',

@@ -3,11 +3,11 @@
 {
     'name': 'CERTIFICATE OF EMPLOYMENT',
     'summary': 'Print from odoo the certificate of employement for your employees',
-    'category': 'Human Resources',
+    'category': 'Reporting',
     'author': 'sitepasmal.com',
     'website': "http://sitepasmal.com",
-    'price': 40,
-    'currency': 'EUR',
+    # 'price': 40,
+    # 'currency': 'EUR',
     'depends': ['base'],
     'version': '1.0',	
 

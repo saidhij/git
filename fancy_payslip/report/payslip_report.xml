@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<report 
+            id="report_fancy_payslip" 
+            model="hr.payslip" 
+            string="Print Fancy Payslip"
+            report_type="qweb-html"
+            name="fancy_payslip.fancy_payslip_report" 
+            file="fancy_payslip.fancy_payslip_report"
+            
+        />
+
+</odoo>

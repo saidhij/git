@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
-    'name': 'FANCY PAYSLIP',
-    'summary': 'Print from odoo the certificate of employement for your employees',
-    'category': 'Reporting',
+    'name': 'ELEGANT PAYSLIP',
+    'summary': 'Print Elegant Payslips for your employees',
+    'category': 'Human Resources',
     'author': 'sitepasmal.com',
     'website': "http://sitepasmal.com",
     'price': 60,
@@ -11,10 +11,10 @@
     'depends': ['base','hr_payroll',],
     'version': '1.0',	
 
-    'description': """Certificate of Employement.
+    'description': """Elegant Payslip.
       ======================
-    - This application will help you print the certificate of employement for one or more employees
-	- Print it directly from the employee menu. 
+    - This application will help you print elegant payslips for your employees
+	- You can keep pour old one. 
     """,
 	
     'data': [

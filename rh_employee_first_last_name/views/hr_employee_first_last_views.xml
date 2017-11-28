@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<data>
+
+<record id="hr_employee_first_last" model="ir.ui.view">
+            <field name="name">hr.employee.first.last</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"/>
+            <field name="arch" type="xml">
+		    <xpath expr="//label[@for='name']" position="before">
+                         <group>
+                            <field name="first_name"/>
+                            <field name="last_name"/> 
+							<field name="code2"/>  
+							
+                    </group>
+					</xpath>
+					<xpath expr="//field[@name='name']" position="attributes">
+                    <attribute name="placeholder">Prénom et Nom</attribute>
+                </xpath>
+				
+  
+		            </field>
+		</record>
+		
+	
+
+</data></odoo>
+

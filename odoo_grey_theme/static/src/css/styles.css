@@ -45,7 +45,16 @@ body .text-info {
     color: #0e0505;
 }
 
+.o_notification_manager .o_notification .o_notification_content {
+    padding: 10px;
+    background-color: black;
+}
 
+.o_notification_manager .o_notification .o_notification_title {
+
+    background-color: #3f2a2a;
+
+}
 
 
 

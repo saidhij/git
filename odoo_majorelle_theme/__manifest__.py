@@ -26,7 +26,7 @@
     "installable": True,
     "auto_install": False,
     'images':[
-        'static/description/banner.png'
-        'static/description/screenshot.png'
+        'static/description/banner.png',
+        'static/description/screenshot.png',
 	 ],
 }

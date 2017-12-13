@@ -27,6 +27,6 @@
     "auto_install": False,
     'images':[
         'static/description/banner.png',
-    
+        'static/description/cover.png',
 	 ],
 }

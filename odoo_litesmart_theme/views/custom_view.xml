@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+	
+	<template id="webclient_bootstrap"
+              inherit_id="web.webclient_bootstrap"
+              name="Toggle - Web Client"
+              >
+	
+	        <xpath expr="//t[@t-set='head']" position="inside">
+            <meta charset="utf-8" />
+            <meta http-equiv="cleartype" content="on" />
+            <meta name="MobileOptimized" content="320" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+            <meta name="HandheldFriendly" content="True" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" /> 
+        </xpath></template>
+	
+	    
+	
+		<template id="custom_view" name="custom_view" inherit_id="web.assets_backend">
+			<xpath expr="." position="inside">
+				<link rel="stylesheet" href="/odoo_litesmart_theme/static/src/css/styles.css" />
+			</xpath>
+		</template>
+		<template id="custom_view_log" name="custom_view_log" inherit_id="web.login_layout">
+			<xpath expr="." position="inside">
+				<link rel="stylesheet" href="/odoo_litesmart_theme/static/src/css/styles.css" />
+				<link rel="stylesheet" href="/odoo_litesmart_theme/static/src/css/w3.css" />
+			<link rel="stylesheet" href="/odoo_litesmart_theme/static/src/css/w3mobile.css" />
+				
+			</xpath>
+		</template>
+		
+		
+		<template id="custom_navbar" name="custom_navbar" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/odoo_litesmart_theme/static/src/js/toggle.js"></script>
+            </xpath>
+        </template>
+
+		 		 <template id="webclient_bootstrap_submenu" inherit_id="web.webclient_bootstrap">
+         <xpath expr="//div[@class='o_main_content']" position="inside">
+                
+                    
+					<table>
+
+  <tr>
+    <th class="btn-link toggle_submenu">
+					
+					<button type="button" >
+                                    
+                                <div class="fa fa-arrow-circle-o-left fa-lg"/> Hide Show Left Menu <div class="fa fa-arrow-circle-o-right fa-lg" />
+                            </button>
+							</th>
+    <th class="btn-link toggle_topmenu">   
+					<button type="button" >
+                                    
+                         
+                                <div class="fa fa-arrow-circle-o-up fa-lg"/> Hide  Show Top Menu <div class="fa fa-arrow-circle-o-down fa-lg" /> 
+                            </button></th>
+    
+  </tr>
+					
+		</table>			
+					
+				 
+
+                    
+            </xpath>
+
+        </template>
+
+
+		
+	</data>
+</odoo>

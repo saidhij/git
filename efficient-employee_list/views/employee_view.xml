@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data>
+	        <record id="hr_employee_tree_employee_view" model="ir.ui.view" >
+            <field name="name">hr.employee.tree.employee.view</field>
+            <field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_tree"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='name']" position="before">
+                    <field name="imageemp" widget='image' width="50" height="50"  class="img-circle oe_topbar_avatar" options='{"preview_image":"image_small"}'/>
+					</xpath>
+					<xpath expr="//field[@name='name']" position="after">
+	                <field name="cname"/>
+					 <field name="cstate"/>
+					 <field name="start"/>
+					 <field name="end"/>
+                 </xpath>
+            </field>
+        </record>
+		
+	
+		
+	</data>
+	
+	
+	
+</odoo>
+        

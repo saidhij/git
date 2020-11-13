@@ -7,7 +7,7 @@
     'author': 'sitepasmal.com',
     'website': 'http://sitepasmal.com',
     'version': '1.0',
-	'price': 18,
+	'price': 25,
     'currency': 'EUR',
     'depends': ['hr_payroll','base'],
     
